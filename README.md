@@ -6,11 +6,11 @@ The goal of this project is to develop a program that helps identify typosquatte
 _
 
 
-The program offers several options:
+**The program offers several options:**
 
 In-depth analysis (-a): It performs an analysis of the supplier package, checking its metadata, download statistics, and user feedback.
 <br>
-[image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/42b38201-668e-42b8-b5ec-c1224ffcc0b1)
+![image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/ab0bec27-0ce6-40e5-9c4a-c4233726aeb3)
 
 _
 Typosquat check (-b): It checks if the specified package has been typosquatted by comparing its name with similar packages on PyPI. It also displays statistics on typosquatted packages.
@@ -31,7 +31,7 @@ ______
 To use the program, you need to provide the name of the package you want to search for and specify the desired options using command-line arguments. For example, to check if the package "requests" has been typosquatted and display statistics, you would run the command: 
 <br>
 ```python3 typosquat.py requests -b.```
-_
+<br>
 
 Similarly, you can use --h if you need help :
 <br>
