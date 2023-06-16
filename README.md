@@ -1,14 +1,14 @@
 # Python-Security
 The goal of this project is to develop a program that helps identify typosquatted packages on PyPI (Python Package Index). Typosquatting refers to the act of registering packages with similar names to popular packages, often with malicious intent.
 
-(https://github.com/RaphaelBouffault/Python-Security/assets/103072020/20828af6-202c-471f-a0dc-f8c931ec0921)
+[image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/20828af6-202c-471f-a0dc-f8c931ec0921)
 
 
 
 The program offers several options:
 
 In-depth analysis (-a): It performs an analysis of the supplier package, checking its metadata, download statistics, and user feedback.
-(https://github.com/RaphaelBouffault/Python-Security/assets/103072020/42b38201-668e-42b8-b5ec-c1224ffcc0b1)
+[image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/42b38201-668e-42b8-b5ec-c1224ffcc0b1)
 
 _
 Typosquat check (-b): It checks if the specified package has been typosquatted by comparing its name with similar packages on PyPI. It also displays statistics on typosquatted packages.
