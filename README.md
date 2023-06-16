@@ -12,17 +12,17 @@ In-depth analysis (-a): It performs an analysis of the supplier package, checkin
 <br>
 ![image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/ab0bec27-0ce6-40e5-9c4a-c4233726aeb3)
 
-_
+
 Typosquat check (-b): It checks if the specified package has been typosquatted by comparing its name with similar packages on PyPI. It also displays statistics on typosquatted packages.
 <br>
 ![image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/a490ada4-8630-4bf1-917b-6e72821e6d28)
 
-_
+
 Version report (-r): It generates a detailed report on the versions of the searched package. It retrieves version and release date information from the PyPI RSS feed.
 <br>
 ![image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/9bb84e6f-02d8-4d8c-814e-0a26ec9eefe0)
 
-_
+
 Typosquatted packages list (-l): It lists the typosquatted packages of the searched package. It compares the package name with other similar packages and identifies potential typosquats.
 <br>
 ![image](https://github.com/RaphaelBouffault/Python-Security/assets/103072020/a96690cc-cb31-4705-af59-4ca402b8fb57)
